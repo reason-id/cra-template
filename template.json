@@ -1,0 +1,22 @@
+{
+  "package": {
+    "scripts": {
+      "start:re": "bsb -make-world -w",
+      "start:cra": "react-scripts start",
+      "start": "run-p -ln start:*",
+      "prebuild": "bsb -clean-world -make-world",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.0",
+      "@testing-library/react": "^10.4.3",
+      "@testing-library/user-event": "^12.0.11",
+      "web-vitals": "^0.2.2",
+      "bs-platform": "^8.2.0",
+      "reason-react": "^0.9.0",
+      "npm-run-all": "^4.1.5"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "your-awesom-cra-reason-project",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "ppx-flags": [],
+  "bs-dependencies": ["reason-react"],
+  "bs-dev-dependencies": [],
+  "refmt": 3,
+  "warnings": {
+    "error": "+5"
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"]
+}

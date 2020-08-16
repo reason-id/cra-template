@@ -1,0 +1,36 @@
+{
+  "name": "@reason-id/cra-template",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "reason-react",
+    "reasonml",
+    "rescript"
+  ],
+  "author": {
+    "name": "ri7nz",
+    "email": "ri7nz.labs@gmail.com",
+    "url": "https://rin.rocks/"
+  },
+  "description": "Create-React-App Template for Reason/ReScript",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/reason-id/cra-template/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reason-id/cra-template"
+  },
+  "main": "template.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
